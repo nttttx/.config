@@ -146,4 +146,4 @@ gaps outer 5
 
 # Autostart
 exec feh --bg-fill ~/.config/wallpaper.png
-exec --no-startup-id picom --config ~/.config/picom.conf -b
+exec --no-startup-id picom --config ~/.config/picom.conf --experimental-backends -b
