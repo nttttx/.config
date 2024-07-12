@@ -1,0 +1,11 @@
+[font]
+size = 16
+normal = {family = "AcPlus IBM VGA 9x16", style="Regular" }
+bold = {family = "AcPlus IBM VGA 9x16", style="Regular" }
+
+[window]
+padding = {x=10, y=10}
+
+[colors.primary]
+background = '#2f2554'
+foreground = '#c7b8ff'
