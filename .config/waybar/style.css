@@ -1,0 +1,56 @@
+@define-color mod-border #FFFFFF;
+@define-color bg-color #000000;
+@define-color fg-color #FFFFFF;
+
+@define-color active-color #FFFFFF;
+/* ---------------------------- */
+
+* {
+/*    font-family: "JetBrains Mono";*/
+    font-family: "Inter Display";
+    font-size: 18px;
+}
+
+window#waybar {
+    border: 2px solid @mod-border;
+    outline: white;
+    background-color: rgba(0, 0, 0, .82);
+}
+
+#workspaces button.empty {
+    color: @mod-border;
+}
+
+#workspaces button.active {
+    color: @active-color;
+
+    margin-left: 11px;
+    margin-right: 11px;
+
+    letter-spacing: 7px;
+}
+
+#workspaces button {
+    border-color: transparent;
+    box-shadow: none; 
+    background: none;
+    text-shadow: none;
+    color: @fg-color;
+    transition: all .8s cubic-bezier(.55,1.64,0,1);
+}
+
+#workspaces,
+#disk,
+#cpu,
+#memory,
+#clock,
+#custom-hyprland_layout {
+/*    border: 0px solid @mod-border;
+    outline: white;*/
+    padding: 0 10px;
+    color: @fg-color;
+/*    background-color: @bg-color;*/
+    background-color: transparent;
+    margin: 4px;
+/*    border-radius: 8px;*/
+}

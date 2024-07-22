@@ -1,0 +1,92 @@
+{
+/*  "output": [
+    "eDP-1"
+  ],*/
+
+  "reload_style_on_change": true,
+  
+  "margin-top": 25,
+  "margin-left": 44,
+  "margin-bottom": 0,
+  "margin-right": 44,
+
+  "height": 28,
+  "spacing": 4,
+
+  "layer": "top",
+  "position": "top",
+
+  "modules-left": [
+    "clock"
+  ],
+  
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-right": [
+    "cpu",
+    "memory",
+    "custom/hyprland_layout"
+  ],
+
+  "hyprland/workspaces": {
+    "active-only": false,
+    "all-outputs": true,
+    "format": "{icon}",
+
+    "format-icons": {
+      "1": "ONE",
+      "2": "TWO",
+      "3": "THREE",
+      "4": "FOUR",
+      "5": "FIVE",
+      "6": "SIX",
+      "7": "SEVEN",
+      "8": "EIGHT",
+      "9": "NINE",
+      "10": "TEN"
+    },
+
+    /* Comment this if you don't want to have
+       thousands of workspaces in your bar */
+    "persistent-workspaces": {
+      "*": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "sort-by-number": true
+  },
+
+  "cpu": {
+    "interval": 5,
+    "format": "CPU {usage}%",
+    "tooltip": false
+  },
+
+  "memory": {
+    "interval": 10,
+    "format": "MEMORY {}%",
+    "tooltip": false
+  },
+
+  "clock": {
+    "format": "{:%H:%M %m/%d}"
+  },
+
+  "custom/hyprland_layout": {
+    "exec": "~/.config/waybar/scripts/get_layout.sh",
+    "on-click": "~/.config/hypr/scripts/switch_layouts.sh",
+    "interval": 1,
+    "tooltip": false
+  }
+}
