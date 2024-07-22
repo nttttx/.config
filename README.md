@@ -3,6 +3,7 @@
 ## Deps
  - hyprland
  - hyprlock
+ - hyprpaper
  - waybar
  - alacritty
  - Helix
