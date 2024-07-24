@@ -6,9 +6,8 @@
  - hyprpaper
  - waybar
  - alacritty
- - Helix
- - IBM Plex Mono
- - Inter
+ - Roboto Mono
+ - Helix (optional)
 
 ## Screenshots
 ![System](.assets/sys.png)

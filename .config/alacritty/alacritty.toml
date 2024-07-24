@@ -1,10 +1,10 @@
 [window]
-opacity = 0.82
-padding = {x=14, y=14}
+#opacity = 0.82
+padding = {x=8, y=14}
 
 [font]
 size = 12
-normal = {family = "IBM Plex Mono"}
+normal = {family = "Roboto Mono"}
 
 #[cursor]
 #blink_interval = 666 # demons will be happy

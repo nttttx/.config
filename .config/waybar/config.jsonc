@@ -36,16 +36,16 @@
     "format": "{icon}",
 
     "format-icons": {
-      "1": "ONE",
-      "2": "TWO",
-      "3": "THREE",
-      "4": "FOUR",
-      "5": "FIVE",
-      "6": "SIX",
-      "7": "SEVEN",
-      "8": "EIGHT",
-      "9": "NINE",
-      "10": "TEN"
+      "1": "I",
+      "2": "II",
+      "3": "III",
+      "4": "IV",
+      "5": "V",
+      "6": "VI",
+      "7": "VII",
+      "8": "VII",
+      "9": "IX",
+      "10": "X"
     },
 
     /* Comment this if you don't want to have
@@ -64,6 +64,7 @@
         10
       ]
     },
+    
     "sort-by-number": true
   },
 

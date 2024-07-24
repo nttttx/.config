@@ -2,14 +2,9 @@
 @define-color bg-color #000000;
 @define-color fg-color #FFFFFF;
 
-@define-color active-color #FFFFFF;
+@define-color active-color @fg-color;
+@define-color empty #767676;
 /* ---------------------------- */
-
-* {
-/*    font-family: "JetBrains Mono";*/
-    font-family: "Inter Display";
-    font-size: 18px;
-}
 
 window#waybar {
     border: 2px solid @mod-border;
@@ -18,16 +13,16 @@ window#waybar {
 }
 
 #workspaces button.empty {
-    color: @mod-border;
+    color: @empty;
 }
 
 #workspaces button.active {
     color: @active-color;
 
-    margin-left: 11px;
-    margin-right: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-    letter-spacing: 7px;
+/*    letter-spacing: 9px;*/
 }
 
 #workspaces button {
@@ -36,7 +31,7 @@ window#waybar {
     background: none;
     text-shadow: none;
     color: @fg-color;
-    transition: all .8s cubic-bezier(.55,1.64,0,1);
+    transition: all .8s cubic-bezier(.55,1.88,0,1);
 }
 
 #workspaces,
@@ -45,12 +40,11 @@ window#waybar {
 #memory,
 #clock,
 #custom-hyprland_layout {
-/*    border: 0px solid @mod-border;
-    outline: white;*/
-    padding: 0 10px;
+    font-family: "One UI Sans APP VF";
+    font-size: 18px;
+    
+    padding: 0 8px;
     color: @fg-color;
-/*    background-color: @bg-color;*/
     background-color: transparent;
     margin: 4px;
-/*    border-radius: 8px;*/
 }
