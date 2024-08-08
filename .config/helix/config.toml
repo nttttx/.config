@@ -3,3 +3,31 @@ theme = "fixed_base16_transparent"
 [editor]
 line-number = "relative"
 mouse = true
+
+[editor.statusline]
+left = [
+  "spinner",
+  "mode",
+  "version-control",
+  "workspace-diagnostics",
+  "file-name",
+  "file-modification-indicator"
+]
+right = [
+  "selections",
+  "register",
+  "file-type",
+  "position",
+  "position-percentage"
+]
+mode.normal = "aunt nell"
+mode.insert = "screeve"
+mode.select = "blag"
+
+[editor.lsp]
+display-messages = true
+
+[editor.indent-guides]
+render = true
+character = "┆"
+skip-levels = 1
