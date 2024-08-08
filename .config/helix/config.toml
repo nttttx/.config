@@ -20,9 +20,9 @@ right = [
   "position",
   "position-percentage"
 ]
-mode.normal = "aunt nell"
-mode.insert = "screeve"
-mode.select = "blag"
+mode.normal = "Aunt nell"
+mode.insert = "Screeve"
+mode.select = "Blag"
 
 [editor.lsp]
 display-messages = true
