@@ -5,16 +5,16 @@
 
   "reload_style_on_change": true,
   
-  "margin-top": 25,
+/*  "margin-top": 0,
   "margin-left": 44,
-  "margin-bottom": 0,
-  "margin-right": 44,
+  "margin-bottom": 25,
+  "margin-right": 44,*/
 
   "height": 28,
   "spacing": 4,
 
-  "layer": "top",
-  "position": "top",
+/*  "layer": "top",*/
+  "position": "bottom",
 
   "modules-left": [
     "clock"
@@ -70,13 +70,13 @@
 
   "cpu": {
     "interval": 5,
-    "format": "CPU {usage}%",
+    "format": "Cpu: {usage}%",
     "tooltip": false
   },
 
   "memory": {
     "interval": 10,
-    "format": "MEMORY {}%",
+    "format": "Memory: {}%",
     "tooltip": false
   },
 

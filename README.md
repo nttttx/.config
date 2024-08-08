@@ -6,9 +6,11 @@
  - hyprpaper
  - waybar
  - alacritty
- - Roboto Mono
  - Helix (optional)
+ - Fonts
+  - [Xanh Mono](https://fonts.google.com/specimen/Xanh+Mono)
+  - [Go Mono](https://go.dev/blog/go-fonts)
+  - [Source Serif 4](https://fonts.google.com/specimen/Source+Serif+4)
 
 ## Screenshots
 ![System](.assets/sys.png)
-![Lockscreen](.assets/lockscreen.png)

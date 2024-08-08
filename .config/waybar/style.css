@@ -1,15 +1,18 @@
-@define-color mod-border #FFFFFF;
-@define-color bg-color #000000;
-@define-color fg-color #FFFFFF;
+@define-color mod-border #916b31;
+@define-color bg-color #e9e5da;
+@define-color fg-color #916b31;
 
 @define-color active-color @fg-color;
-@define-color empty #767676;
+@define-color empty #cba367;
 /* ---------------------------- */
 
 window#waybar {
-    border: 2px solid @mod-border;
+/*    border: 2px solid @mod-border;
+    border-radius: 4;
+    background-color: rgba(233,229,218,255);*/
+    border: transparent;
+    background: linear-gradient(rgba(233, 229, 218, 0), @bg-color);
     outline: white;
-    background-color: rgba(0, 0, 0, .82);
 }
 
 #workspaces button.empty {
@@ -19,8 +22,8 @@ window#waybar {
 #workspaces button.active {
     color: @active-color;
 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
 
 /*    letter-spacing: 9px;*/
 }
@@ -31,7 +34,7 @@ window#waybar {
     background: none;
     text-shadow: none;
     color: @fg-color;
-    transition: all .8s cubic-bezier(.55,1.88,0,1);
+    transition: all .45s cubic-bezier(0.2, 0, 0, 1);
 }
 
 #workspaces,
@@ -40,7 +43,7 @@ window#waybar {
 #memory,
 #clock,
 #custom-hyprland_layout {
-    font-family: "One UI Sans APP VF";
+    font-family: "Source Serif 4";
     font-size: 18px;
     
     padding: 0 8px;

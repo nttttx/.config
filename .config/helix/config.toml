@@ -1,6 +1,5 @@
-theme = 'base16_transparent'
+theme = "fixed_base16_transparent"
 
 [editor]
 line-number = "relative"
 mouse = true
-

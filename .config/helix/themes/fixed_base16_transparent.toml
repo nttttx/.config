@@ -1,0 +1,6 @@
+# Fixes some issues with colors in kitty colorscheme
+
+inherits = "base16_default"
+
+"ui.selection.primary" = { modifiers = ["reversed"] }
+"ui.statusline.inactive" = { modifiers = ["reversed"] }
