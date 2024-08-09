@@ -1,6 +1,18 @@
 # Fixes some issues with colors in kitty colorscheme
+# (and custom theme :3)
 
 inherits = "base16_default"
 
 "ui.selection.primary" = { modifiers = ["reversed"] }
-"ui.statusline.inactive" = { modifiers = ["reversed"] }
+"ui.statusline" = { fg = "white", bg = "black", modifiers = ["bold"] }
+"ui.statusline.inactive" = { fg = "white", bg = "black", modifiers = ["bold"] }
+
+"diagnostic.error" = { fg = "#ba1a1a" }
+"diagnostic.warning" = { fg = "#6f5b40" }
+"diagnostic.hint" = { fg = "#516440" }
+"diagnostic.info" = { fg = "#516440" }
+
+"error" = { fg = "#ba1a1a" }
+"warning" = { fg = "#6f5b40" }
+"hint" = { fg = "#516440" }
+"info" = { fg = "#516440" }
